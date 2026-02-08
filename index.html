@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="K-Cafe - A cozy haven for K-pop stans to unwind, stream their favorite artists, and indulge in beautifully crafted K-pop themed desserts and drinks.">
+    <title>K-Cafe | K-Pop Themed Cafe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating Elements -->
+    <div class="floating-elements">
+        <span class="floating-element">✨</span>
+        <span class="floating-element">🎵</span>
+        <span class="floating-element">💜</span>
+        <span class="floating-element">⭐</span>
+        <span class="floating-element">🎤</span>
+        <span class="floating-element">💫</span>
+        <span class="floating-element">🎶</span>
+        <span class="floating-element">💖</span>
+        <span class="floating-element">✨</span>
+        <span class="floating-element">🌟</span>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="index.html" class="logo">K-Cafe <span>♪</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to K-Cafe ✨</h1>
+            <p>Your sanctuary for all things K-pop. Sink into plush seating while music videos play on every screen, sip on drinks inspired by your bias, and treat yourself to desserts almost too pretty to eat. Whether you're celebrating a comeback, mourning a hiatus, or just need a place where everyone gets it—you belong here.</p>
+            <a href="menu.html" class="btn btn-primary">Explore Our Menu</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Why Stans Love K-Cafe</h2>
+                <p>A space designed by fans, for fans</p>
+            </div>
+            <div class="features-grid stagger-children">
+                <div class="feature-card">
+                    <div class="feature-icon">🎵</div>
+                    <h3>24/7 K-Pop Playlist</h3>
+                    <p>From chart-topping title tracks to deep B-sides, our curated playlists rotate through every generation of K-pop. Request your favorite songs, and watch MVs on our big screens all day long.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">☕</div>
+                    <h3>Idol-Inspired Drinks</h3>
+                    <p>Each signature drink is lovingly crafted to match your favorite groups' colors and aesthetics. Collect photocard coasters with every order and trade with fellow fans.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🍰</div>
+                    <h3>K-Pop Themed Desserts</h3>
+                    <p>Our pastry chefs create stunning desserts inspired by album concepts, lightstick designs, and iconic moments. Every bite is a feast for the eyes and taste buds.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📸</div>
+                    <h3>Stan-Worthy Photo Zones</h3>
+                    <p>Strike a pose in our rotating themed corners decorated with album artwork, lightsticks, and fan-made displays. The perfect backdrop for your next profile picture.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Preview Section -->
+    <section class="menu-preview">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Fan Favorites</h2>
+                <p>The treats our regulars can't stop ordering</p>
+            </div>
+            <div class="menu-grid stagger-children">
+                <div class="menu-item heart-hover">
+                    <img src="assets/bts_purple_boba.jpg" alt="BTS Purple Boba" class="menu-item-image">
+                    <div class="menu-item-content">
+                        <h3>BTS Purple Boba</h3>
+                        <p>A dreamy taro milk tea in the iconic purple hue, swirled with lavender and chewy purple tapioca pearls. I purple you, indeed.</p>
+                        <span class="price">$6.50</span>
+                    </div>
+                </div>
+                <div class="menu-item heart-hover">
+                    <img src="assets/strawberry_bingsu.jpg" alt="Strawberry Bingsu" class="menu-item-image">
+                    <div class="menu-item-content">
+                        <h3>Strawberry Bingsu</h3>
+                        <p>Fluffy shaved milk ice piled high with fresh strawberries, chewy mochi bites, and a drizzle of condensed milk. Perfect for sharing—or not.</p>
+                        <span class="price">$12.00</span>
+                    </div>
+                </div>
+                <div class="menu-item heart-hover">
+                    <img src="assets/korean_cream_bread.jpg" alt="Korean Cream Bread" class="menu-item-image">
+                    <div class="menu-item-content">
+                        <h3>Korean Cream Bread</h3>
+                        <p>Pillowy soft bread bursting with sweet whipped cream and dusted with sugar crystals. The comfort snack you've seen idols devour on VLive.</p>
+                        <span class="price">$4.50</span>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="menu.html" class="btn btn-secondary">View Full Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Your Fandom Deserves a Home</h2>
+            <p>Pull up a chair, plug in your headphones or join the crowd, and let the music take over. Whether you're a solo stan or rolling deep with your group chat, K-Cafe is waiting for you.</p>
+            <a href="contact.html" class="btn btn-primary">Find Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>K-Cafe</h4>
+                    <p>A cozy retreat for K-pop stans. Stream, snack, and stan together.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Hours</h4>
+                    <p>Mon - Thu: 10am - 9pm</p>
+                    <p>Fri - Sat: 10am - 11pm</p>
+                    <p>Sunday: 11am - 8pm</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>123 K-Pop Street</p>
+                    <p>Seoul District, CA 90001</p>
+                    <p>hello@k-cafe.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 K-Cafe. All rights reserved. Made with 💜</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        }
+
+        // Scroll Reveal Animation
+        function revealOnScroll() {
+            const reveals = document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .stagger-children');
+            const windowHeight = window.innerHeight;
+
+            reveals.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                const revealPoint = 150;
+
+                if (elementTop < windowHeight - revealPoint) {
+                    element.classList.add('active');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', revealOnScroll);
+        window.addEventListener('load', revealOnScroll);
+
+        // Heart Burst Effect
+        document.querySelectorAll('.heart-hover').forEach(element => {
+            element.addEventListener('mouseenter', function(e) {
+                const hearts = ['💜', '💖', '💗', '💕', '✨'];
+                for (let i = 0; i < 5; i++) {
+                    setTimeout(() => {
+                        const heart = document.createElement('span');
+                        heart.className = 'floating-heart';
+                        heart.textContent = hearts[Math.floor(Math.random() * hearts.length)];
+                        heart.style.left = Math.random() * 100 + '%';
+                        heart.style.top = '50%';
+                        this.appendChild(heart);
+                        setTimeout(() => heart.remove(), 1000);
+                    }, i * 100);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

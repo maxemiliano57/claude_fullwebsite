@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore K-Cafe's menu of idol-inspired drinks and K-pop themed desserts. Every sip and bite is crafted with stan culture in mind.">
+    <title>Menu | K-Cafe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="index.html" class="logo">K-Cafe <span>♪</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <h1>Our Menu</h1>
+        <p>Drinks and desserts crafted with the same dedication you bring to your fandom</p>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section">
+        <div class="container">
+            <!-- Signature Drinks -->
+            <div class="menu-category">
+                <h3>🧋 Signature Drinks</h3>
+                <p style="margin-bottom: 1.5rem; color: var(--text-light);">Each drink inspired by the colors, vibes, and energy of your favorite groups. Comes with a collectible photocard coaster.</p>
+                <div class="menu-full-grid">
+                    <div class="menu-full-item">
+                        <div class="menu-full-item-info">
+                            <h4>BTS Purple Boba</h4>
+                            <p>Creamy taro milk tea in that iconic purple, with lavender notes and chewy purple pearls. I purple you energy in every sip.</p>
+                        </div>
+                        <span class="price">$6.50</span>
+                    </div>
+                    <div class="menu-full-item">
+                        <div class="menu-full-item-info">
+                            <h4>BLACKPINK Rose Latte</h4>
+                            <p>Delicate rose-infused espresso topped with real edible petals. Pink and elegant, just like the name suggests.</p>
+                        </div>
+                        <span class="price">$7.00</span>
+                    </div>
+                    <div class="menu-full-item">
+                        <div class="menu-full-item-info">
+                            <h4>Stray Kids Chocolate Storm</h4>
+                            <p>Bold, intense, and unapologetically extra. Rich chocolate frappe loaded with Oreo crumbles and whipped cream chaos.</p>
+                        </div>
+                        <span class="price">$7.50</span>
+                    </div>
+                    <div class="menu-full-item">
+                        <div class="menu-full-item-info">
+                            <h4>NewJeans Matcha Dream</h4>
+                            <p>Smooth, trendy, effortlessly cool. Premium ceremonial matcha with oat milk and a touch of honey sweetness.</p>
+                        </div>
+                        <span class="price">$6.50</span>
+                    </div>
+                    <div class="menu-full-item">
+                        <div class="menu-full-item-info">
+                            <h4>TWICE Peach Paradise</h4>
+                            <p>Sweet, refreshing, and impossible not to love. Peach iced tea with lychee popping boba that bursts with every sip.</p>
+                        </div>
+                        <span class="price">$6.00</span>
+                    </div>
+                    <div class="menu-full-item">
+                        <div class="menu-full-item-info">
+                            <h4>aespa Neon Splash</h4>
+                            <p>Futuristic and eye-catching. Blue butterfly pea lemonade that shifts to purple when you add the citrus—pure MY magic.</p>
+                        </div>
+                        <span class="price">$6.50</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Classic Drinks -->
+            <div class="menu-category">
+                <h3>☕ Classic Drinks</h3>
+                <p style="margin-bottom: 1.5rem; color: var(--text-light);">The staples you know and love, made the Korean way. Perfect for long streaming sessions.</p>
+                <div class="menu-full-grid">
+                    <div class="menu-full-item">
+                        <div class="menu-full-item-info">
+                            <h4>Korean Iced Americano</h4>
+                            <p>The drink of every K-drama protagonist. Strong, smooth, and perfect for those 3 AM comeback streams.</p>
+                        </div>
+                        <span class="price">$4.50</span>
+                    </div>
+                    <div class="menu-full-item">
+                        <div class="menu-full-item-info">
+                            <h4>Dalgona Coffee</h4>
+                            <p>The viral whipped coffee that took over TikTok. Fluffy, creamy clouds over cold milk.</p>
+                        </div>
+                        <span class="price">$5.50</span>
+                    </div>
+                    <div class="menu-full-item">
+                        <div class="menu-full-item-info">
+                            <h4>Brown Sugar Milk Tea</h4>
+                            <p>That beautiful tiger stripe drip with caramelized brown sugar and perfectly chewy boba pearls.</p>
+                        </div>
+                        <span class="price">$6.00</span>
+                    </div>
+                    <div class="menu-full-item">
+                        <div class="menu-full-item-info">
+                            <h4>Yuzu Citrus Tea</h4>
+                            <p>Bright and tangy Korean citrus marmalade steeped into a soothing tea. Cozy in any weather.</p>
+                        </div>
+                        <span class="price">$5.00</span>
+                    </div>
+                    <div class="menu-full-item">
+                        <div class="menu-full-item-info">
+                            <h4>Vanilla Bean Latte</h4>
+                            <p>Velvety espresso swirled with real Madagascar vanilla. Simple, classic, comforting.</p>
+                        </div>
+                        <span class="price">$5.50</span>
+                    </div>
+                    <div class="menu-full-item">
+                        <div class="menu-full-item-info">
+                            <h4>Strawberry Milk</h4>
+                            <p>Fresh strawberry puree blended with cold milk. The nostalgic convenience store drink, elevated.</p>
+                        </div>
+                        <span class="price">$5.00</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Korean Desserts -->
+            <div class="menu-category">
+                <h3>🍧 Korean Desserts</h3>
+                <p style="margin-bottom: 1.5rem; color: var(--text-light);">Desserts so pretty you'll want to photograph them before eating. We understand—take your time.</p>
+                <div class="menu-full-grid">
+                    <div class="menu-full-item">
+                        <div class="menu-full-item-info">
+                            <h4>Strawberry Bingsu</h4>
+                            <p>Fluffy shaved milk ice piled with fresh strawberries, chewy mochi, and sweet condensed milk. Shareable, but you won't want to.</p>
+                        </div>
+                        <span class="price">$12.00</span>
+                    </div>
+                    <div class="menu-full-item">
+                        <div class="menu-full-item-info">
+                            <h4>Mango Bingsu</h4>
+                            <p>Tropical escape in a bowl. Sweet mango over milky shaved ice with toasted coconut flakes and mango sorbet.</p>
+                        </div>
+                        <span class="price">$12.00</span>
+                    </div>
+                    <div class="menu-full-item">
+                        <div class="menu-full-item-info">
+                            <h4>Oreo Bingsu</h4>
+                            <p>Cookies and cream lovers, this is for you. Crushed Oreos, chocolate drizzle, and fluffy cream on milky ice.</p>
+                        </div>
+                        <span class="price">$11.00</span>
+                    </div>
+                    <div class="menu-full-item">
+                        <div class="menu-full-item-info">
+                            <h4>Injeolmi Toast</h4>
+                            <p>Crispy buttered toast dusted with nutty soybean powder and drizzled with honey. The textures are unreal.</p>
+                        </div>
+                        <span class="price">$8.00</span>
+                    </div>
+                    <div class="menu-full-item">
+                        <div class="menu-full-item-info">
+                            <h4>Korean Honey Bread</h4>
+                            <p>A whole brick of buttery bread cubes with honey, vanilla ice cream, and fresh whipped cream. Best shared with your group chat IRL.</p>
+                        </div>
+                        <span class="price">$10.00</span>
+                    </div>
+                    <div class="menu-full-item">
+                        <div class="menu-full-item-info">
+                            <h4>Tteok Ice Cream</h4>
+                            <p>Soft, chewy rice cake wrapped around your choice of premium ice cream. A texture experience you won't forget.</p>
+                        </div>
+                        <span class="price">$6.00</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pastries & Snacks -->
+            <div class="menu-category">
+                <h3>🥐 Pastries & Snacks</h3>
+                <p style="margin-bottom: 1.5rem; color: var(--text-light);">The street food and bakery favorites you've seen idols eat on VLive. Now you can try them too.</p>
+                <div class="menu-full-grid">
+                    <div class="menu-full-item">
+                        <div class="menu-full-item-info">
+                            <h4>Korean Cream Bread</h4>
+                            <p>Impossibly soft bread bursting with fresh whipped cream and dusted with sugar crystals. The ultimate K-pop comfort food.</p>
+                        </div>
+                        <span class="price">$4.50</span>
+                    </div>
+                    <div class="menu-full-item">
+                        <div class="menu-full-item-info">
+                            <h4>Red Bean Bun</h4>
+                            <p>Pillowy steamed bun filled with sweet, earthy red bean paste. A classic for a reason.</p>
+                        </div>
+                        <span class="price">$4.00</span>
+                    </div>
+                    <div class="menu-full-item">
+                        <div class="menu-full-item-info">
+                            <h4>Croffle</h4>
+                            <p>Buttery croissant dough pressed into a waffle, served with maple syrup and fresh berries. Crispy, flaky, perfect.</p>
+                        </div>
+                        <span class="price">$7.00</span>
+                    </div>
+                    <div class="menu-full-item">
+                        <div class="menu-full-item-info">
+                            <h4>Hotteok</h4>
+                            <p>Warm, chewy Korean pancake filled with gooey brown sugar, cinnamon, and crushed nuts. Street food heaven.</p>
+                        </div>
+                        <span class="price">$5.00</span>
+                    </div>
+                    <div class="menu-full-item">
+                        <div class="menu-full-item-info">
+                            <h4>Egg Bread (Gyeran-ppang)</h4>
+                            <p>Sweet, fluffy bread with a whole egg baked right in the center. Savory meets sweet in the best way.</p>
+                        </div>
+                        <span class="price">$4.50</span>
+                    </div>
+                    <div class="menu-full-item">
+                        <div class="menu-full-item-info">
+                            <h4>Korean Corn Dog</h4>
+                            <p>Crispy, crunchy batter-coated hot dog dusted with sugar. The sweet-savory combo that goes viral every time.</p>
+                        </div>
+                        <span class="price">$6.00</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add-ons -->
+            <div class="menu-category">
+                <h3>✨ Add-ons</h3>
+                <p style="margin-bottom: 1.5rem; color: var(--text-light);">Customize your order. Because you deserve exactly what you want.</p>
+                <div class="menu-full-grid">
+                    <div class="menu-full-item">
+                        <div class="menu-full-item-info">
+                            <h4>Extra Boba Pearls</h4>
+                            <p>More chewy tapioca or bursting popping boba because one scoop is never enough.</p>
+                        </div>
+                        <span class="price">$0.75</span>
+                    </div>
+                    <div class="menu-full-item">
+                        <div class="menu-full-item-info">
+                            <h4>Oat Milk Substitute</h4>
+                            <p>Creamy, barista-style oat milk for any drink. Dairy-free and delicious.</p>
+                        </div>
+                        <span class="price">$0.75</span>
+                    </div>
+                    <div class="menu-full-item">
+                        <div class="menu-full-item-info">
+                            <h4>Extra Espresso Shot</h4>
+                            <p>For when you need extra energy to survive that album drop at midnight.</p>
+                        </div>
+                        <span class="price">$1.00</span>
+                    </div>
+                    <div class="menu-full-item">
+                        <div class="menu-full-item-info">
+                            <h4>Whipped Cream</h4>
+                            <p>Fluffy clouds of sweetness on top of any drink. You deserve it.</p>
+                        </div>
+                        <span class="price">$0.50</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Too Many Good Choices?</h2>
+            <p>We get it—the menu is a lot. Stop by and our team of fellow stans will help you find your new favorite order based on your current mood and bias.</p>
+            <a href="contact.html" class="btn btn-primary">Find Our Location</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>K-Cafe</h4>
+                    <p>A cozy retreat for K-pop stans. Stream, snack, and stan together.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Hours</h4>
+                    <p>Mon - Thu: 10am - 9pm</p>
+                    <p>Fri - Sat: 10am - 11pm</p>
+                    <p>Sunday: 11am - 8pm</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>123 K-Pop Street</p>
+                    <p>Seoul District, CA 90001</p>
+                    <p>hello@k-cafe.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 K-Cafe. All rights reserved. Made with 💜</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
